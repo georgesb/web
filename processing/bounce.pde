@@ -1,5 +1,3 @@
-// quoted from funprogramming.org
-
 // initial position for our circle
 float circle_x = 300;
 float circle_y = 20;
@@ -17,7 +15,7 @@ void draw() {
   ellipse(circle_x, circle_y, 40, 40);
   circle_x = circle_x + move_x;
   circle_y = circle_y + move_y;
-  
+
   if(circle_x > width) {
     circle_x = width;
     move_x = -move_x;
@@ -37,4 +35,5 @@ void draw() {
 }
 
 
+// quoted from funprogramming.org
 
